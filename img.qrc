@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rc/background.jpg</file>
+        <file>rc/background2.png</file>
+        <file>rc/transparent2.png</file>
+        <file>rc/background3.png</file>
+        <file>rc/button.png</file>
+        <file>rc/button2.png</file>
+        <file>rc/button3.png</file>
+        <file>rc/pic1.png</file>
+        <file>rc/pic2.png</file>
+        <file>rc/pic3.png</file>
+        <file>rc/pic4.png</file>
+        <file>rc/pic5.png</file>
+        <file>rc/pic6.png</file>
+        <file>rc/pic7.png</file>
+        <file>rc/pic11.png</file>
+        <file>rc/pic22.png</file>
+        <file>rc/pic33.png</file>
+        <file>rc/pic44.png</file>
+        <file>rc/pic55.png</file>
+        <file>rc/pic66.png</file>
+        <file>rc/pic77.png</file>
+        <file>rc/mask.png</file>
+    </qresource>
+</RCC>

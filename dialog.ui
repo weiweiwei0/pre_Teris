@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1281</width>
+    <height>798</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Dialog { background-image:url(:/rc/background3.png); }</string>
+  </property>
+  <widget class="QLabel" name="labelNext">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>110</y>
+     <width>221</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelScore">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>540</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background: transparent;
+	color:yellow;
+	font:bold 26pt;
+	font-family: &quot;Arial Black&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startButton">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>640</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:!hover{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button2.png);	
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+}
+QPushButton:hover{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button.png);
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+}
+
+QPushButton:pressed{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button3.png);
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>GO!</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="resetButton">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>690</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:!hover{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button2.png);	
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+
+}
+QPushButton:hover{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button.png);
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+}
+
+QPushButton:pressed{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button3.png);
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>RESET</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="prevButton">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>410</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:!hover{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button2.png);	
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+
+}
+QPushButton:hover{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button.png);
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+}
+
+QPushButton:pressed{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button3.png);
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>PREV</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nextButton">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>410</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:!hover{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button2.png);	
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+
+}
+QPushButton:hover{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button.png);
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+}
+
+QPushButton:pressed{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button3.png);
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>NEXT</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelScore_2">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>450</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background: transparent;
+	color:yellow;
+	font:bold 8pt;
+	font-family: &quot;Arial Black&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>HISTORY SCORE:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="historyScoreLabel">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>450</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background: transparent;
+	color:yellow;
+	font:bold 8pt;
+	font-family: &quot;Arial Black&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelScore_3">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>470</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background: transparent;
+	color:yellow;
+	font:bold 8pt;
+	font-family: &quot;Arial Black&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>DATE&amp;TIME:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="historyDateAndTimeLabel">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>470</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background: transparent;
+	color:yellow;
+	font:bold 8pt;
+	font-family: &quot;Arial Black&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelScore_4">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>490</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background: transparent;
+	color:yellow;
+	font:bold 8pt;
+	font-family: &quot;Arial Black&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>RECORD SCORE:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="recordScoreLabel">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>490</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background: transparent;
+	color:yellow;
+	font:bold 8pt;
+	font-family: &quot;Arial Black&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelScore_5">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>510</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background: transparent;
+	color:yellow;
+	font:bold 8pt;
+	font-family: &quot;Arial Black&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>DATE&amp;TIME:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="recordDateAndTimeLabel">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>510</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background: transparent;
+	color:yellow;
+	font:bold 8pt;
+	font-family: &quot;Arial Black&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quitButton">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>740</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:!hover{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button2.png);	
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+
+}
+QPushButton:hover{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button.png);
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+}
+
+QPushButton:pressed{
+	border-radius: 15px;
+	background:transparent;
+	image:url(:/rc/button3.png);
+	color:yellow;
+	font:bold 16pt;
+	font-family: &quot;Arial Black&quot;;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>QUIT</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
